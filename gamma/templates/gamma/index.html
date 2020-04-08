@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Test</title>
+     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+Pruebas:
+<br>
+<h1><b>GENERAL</b></h1>
+<b>Numero de aciertos correctos y incorrectos de todos los temas de todos los alumnos</b>
+<script type="text/javascript" src="http://127.0.0.1:8000/gamma/generalColumnTopic/"></script>
+<div id="generalTopic"></div>
+<br>
+<b>Numero de aciertos correctos y incorrectos de todos los temas de todos los alumnos en determinado grupo</b>
+<script type="text/javascript" src="http://127.0.0.1:8000/gamma/generalColumnGroupTopic/3/"></script>
+<div id="generalTopicGroup: 3"></div>
+<br>
+<b>Numero de aciertos correctos y incorrectos de todas las preguntas de todos los alumnos en determinado grupo en determinado Cuestionario</b>
+<script type="text/javascript" src="http://127.0.0.1:8000/gamma/questionnaireGradeGroup/1/5/"></script>
+<div id="questions-Group:1 Cue:5"></div>
+<br>
+<b>Numero de aciertos correctos y incorrectos de todas las preguntas de todos los alumnos en determinado Cuestionario</b>
+<script type="text/javascript" src="http://127.0.0.1:8000/gamma/questionnaireGrades/6/"></script>
+<div id="generalQuestionsCue:6"></div>
+<br>
+<b>Numero de aprobados y reprobados en base a sacar mayor de 6 junto con el numero de preguntas y repuestas correctas y incorrectas. Por grupo Por cuestionario</b>
+<script type="text/javascript" src="http://127.0.0.1:8000/gamma/generalGroupQuestionnaire/1/1/"></script>
+<div id="Group:1Cuestionario:1"></div>
+<br>
+<b>Numero de aprobados y reprobados en base a sacar mayor de 6 junto con el numero de preguntas y repuestas correctas y incorrectas. POr cuestionario de todos los alumnos</b>
+<script type="text/javascript" src="http://127.0.0.1:8000/gamma/generalQuestionnaire/13/"></script>
+<div id="Cuestionario:13"></div>
+<br>
+<b>Numero de aprobados y reprobados en base a sacar mayor de 6 junto con el numero de preguntas y repuestas correctas y incorrectas.de todos los alumnos</b>
+<script type="text/javascript" src="http://127.0.0.1:8000/gamma/generalGrades/"></script>
+<div id="generalGrades"></div>
+<h1><b>POR ALUMNO</b></h1>
+<b>Piechart-Calificacion por cuestionario</b>
+<script type="text/javascript" src="http://127.0.0.1:8000/gamma/questionnaireAlumno/3/18"></script>
+<div id="questionnarie:18alu:3"></div>
+<br>
+<b>Piechart-Calificacion por tema de todas las preguntas repondidas de todos los cuestionarios</b>
+<script type="text/javascript" src="http://127.0.0.1:8000/gamma/questionnairesAlumnoTopic/3/4"></script>
+<div id="topic:4alu:3"></div>
+</body>
+</html>
